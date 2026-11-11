@@ -104,3 +104,38 @@
 - **searchPreserve pada Stack**: elemen di-pop ke stack sementara selama pencarian,
   lalu di-push kembali sehingga urutan akhir sama dengan sebelum pencarian
   (skenario uji 6).
+
+## Tambahan: StackRiwayat dan kontrak StrukturData
+
+- **Tanggal:** 2026-11-11
+- **Penulis tambahan:** Fathul Qolby
+
+`ArrayDinamis<T>` mengimplementasikan interface `StrukturData<T>`.
+`StackRiwayat<T>` **sengaja tidak** mengimplementasikannya, karena beberapa operasi di kontrak
+memberi akses ke posisi mana pun, sedangkan Stack hanya boleh diubah dari puncak (LIFO).
+Jika `StackRiwayat` dipaksa memenuhi kontrak, operasi seperti `remove(i)` akan memungkinkan
+penghapusan riwayat di tengah, sehingga urutan audit tidak lagi dapat dipercaya.
+
+### Pemetaan operasi kontrak ke operasi Stack
+
+| Operasi `StrukturData<T>` | Padanan di `StackRiwayat<T>` | Kompleksitas | Keterangan |
+|---|---|---|---|
+| `add(T value)` | `push(T value)` | O(1) amortized | selalu di puncak; resize ×2 saat penuh |
+| `remove(int position)` | `pop()` | O(1) | hanya elemen puncak; penghapusan di posisi lain tidak disediakan |
+| `get(int position)` | `peek()` / `lihatDariAtas(int urutan)` | O(1) | **hanya baca**, posisi dihitung dari puncak (1 = terbaru); dipakai untuk menampilkan riwayat, tidak mengubah isi |
+| `contains(T value)` | `searchPreserve(T value) != -1` | O(n) waktu, O(n) ruang | pencarian lewat pop ke stack sementara lalu `restore`, urutan akhir tetap |
+| `size()` | `size()` | O(1) | sama |
+| `isEmpty()` | `isEmpty()` | O(1) | sama |
+| `clear()` | tidak disediakan | - | riwayat audit tidak boleh dihapus massal dari dalam aplikasi |
+
+### Mengapa `lihatDariAtas` tidak melanggar sifat Stack
+`lihatDariAtas` membaca `data[top - urutan]` tanpa `pop`, `push`, atau mengubah `top`.
+Method ini hanya dipakai `AuditRiwayat.tampilkan()` untuk menampilkan riwayat dari yang terbaru.
+Semua perubahan isi tetap hanya lewat `push` dan `pop` di puncak, dan pencarian tetap memakai
+`searchPreserve` (skenario uji 6).
+
+### Kewajiban yang tetap dipenuhi
+- Generik `<T>` dan berbasis array `T[]`, tanpa koleksi `java.util`.
+- Memiliki `validateInvariant()`: `0 ≤ top ≤ data.length`, slot `0..top-1` terisi, sisanya `null`.
+- Elemen `null` ditolak, dan `pop`/`peek` pada stack kosong melempar `IllegalStateException`.
+- Diuji oleh `StackRiwayatTest` (10 test) dan `AuditRiwayatTest` (5 test).
