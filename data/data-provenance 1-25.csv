@@ -1,0 +1,226 @@
+case_id,field_name,value,source_file,source_page,extractor,reviewer,status
+P001,nomorPerkara,329/Pid.Sus/2023/PN Pbr,putusan_001.pdf,1,Shabil,Fathul,verified
+P001,tanggalPutusan,2023-07-06,putusan_001.pdf,24,Shabil,Fathul,verified
+P001,jenisNarkotika,sabu,putusan_001.pdf,5,Shabil,Fathul,verified
+P001,beratBarangBuktiGram,1.63,putusan_001.pdf,5,Shabil,Fathul,verified
+P001,pasalDakwaan,114(1)|112(1),putusan_001.pdf,8,Shabil,Fathul,verified
+P001,pasalTerbukti,112(1),putusan_001.pdf,23,Shabil,Fathul,verified
+P001,tuntutanBulan,72,putusan_001.pdf,3,Shabil,Fathul,verified
+P001,vonisBulan,72,putusan_001.pdf,23,Shabil,Fathul,verified
+P001,dendaRupiah,1000000000,putusan_001.pdf,23,Shabil,Fathul,verified
+P002,nomorPerkara,341/Pid.Sus/2023/PN Pbr,putusan_002.pdf,1,Shabil,Fathul,verified
+P002,tanggalPutusan,2023-07-27,putusan_002.pdf,37,Shabil,Fathul,verified
+P002,jenisNarkotika,sabu,putusan_002.pdf,5,Shabil,Fathul,verified
+P002,beratBarangBuktiGram,99.66,putusan_002.pdf,5,Shabil,Fathul,verified
+P002,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_002.pdf,6,Shabil,Fathul,verified
+P002,pasalTerbukti,114(2) jo 132(1),putusan_002.pdf,37,Shabil,Fathul,verified
+P002,tuntutanBulan,96,putusan_002.pdf,2,Shabil,Fathul,verified
+P002,vonisBulan,96,putusan_002.pdf,37,Shabil,Fathul,verified
+P002,dendaRupiah,1000000000,putusan_002.pdf,37,Shabil,Fathul,verified
+P003,nomorPerkara,354/Pid.Sus/2023/PN Pbr,putusan_003.pdf,1,Shabil,Fathul,verified
+P003,tanggalPutusan,2023-07-06,putusan_003.pdf,23,Shabil,Fathul,verified
+P003,jenisNarkotika,ganja,putusan_003.pdf,5,Shabil,Fathul,verified
+P003,beratBarangBuktiGram,677.4,putusan_003.pdf,5,Shabil,Fathul,verified
+P003,pasalDakwaan,114(1)|111(1),putusan_003.pdf,6,Shabil,Fathul,verified
+P003,pasalTerbukti,114(1),putusan_003.pdf,22,Shabil,Fathul,verified
+P003,tuntutanBulan,96,putusan_003.pdf,2,Shabil,Fathul,verified
+P003,vonisBulan,84,putusan_003.pdf,22,Shabil,Fathul,verified
+P003,dendaRupiah,1000000000,putusan_003.pdf,22,Shabil,Fathul,verified
+P004,nomorPerkara,460/Pid.Sus/2023/PN Pbr,putusan_004.pdf,1,Shabil,Fathul,verified
+P004,tanggalPutusan,2023-06-26,putusan_004.pdf,35,Shabil,Fathul,verified
+P004,jenisNarkotika,ekstasi,putusan_004.pdf,6,Shabil,Fathul,verified
+P004,beratBarangBuktiGram,2.76,putusan_004.pdf,6,Shabil,Fathul,verified
+P004,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_004.pdf,7,Shabil,Fathul,verified
+P004,pasalTerbukti,114(1) jo 132(1),putusan_004.pdf,34,Shabil,Fathul,verified
+P004,tuntutanBulan,72,putusan_004.pdf,2,Shabil,Fathul,verified
+P004,vonisBulan,72,putusan_004.pdf,34,Shabil,Fathul,verified
+P004,dendaRupiah,1000000000,putusan_004.pdf,34,Shabil,Fathul,verified
+P005,nomorPerkara,523/Pid.Sus/2023/PN.Pbr,putusan_005.pdf,1,Shabil,Fathul,verified
+P005,tanggalPutusan,2023-07-06,putusan_005.pdf,27,Shabil,Fathul,verified
+P005,jenisNarkotika,sabu,putusan_005.pdf,5,Shabil,Fathul,verified
+P005,beratBarangBuktiGram,12.87,putusan_005.pdf,5,Shabil,Fathul,verified
+P005,pasalDakwaan,114(2)|112(2),putusan_005.pdf,6,Shabil,Fathul,verified
+P005,pasalTerbukti,112(2),putusan_005.pdf,27,Shabil,Fathul,verified
+P005,tuntutanBulan,84,putusan_005.pdf,3,Shabil,Fathul,verified
+P005,vonisBulan,84,putusan_005.pdf,27,Shabil,Fathul,verified
+P005,dendaRupiah,1000000000,putusan_005.pdf,27,Shabil,Fathul,verified
+P006,nomorPerkara,991/Pid.Sus/2023/PN Pbr,putusan_006.pdf,1,Shabil,Fathul,verified
+P006,tanggalPutusan,2023-09-27,putusan_006.pdf,24,Shabil,Fathul,verified
+P006,jenisNarkotika,ekstasi,putusan_006.pdf,4,Shabil,Fathul,verified
+P006,beratBarangBuktiGram,3.21,putusan_006.pdf,4,Shabil,Fathul,verified
+P006,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_006.pdf,5,Shabil,Fathul,verified
+P006,pasalTerbukti,114(1) jo 132(1),putusan_006.pdf,23,Shabil,Fathul,verified
+P006,tuntutanBulan,72,putusan_006.pdf,2,Shabil,Fathul,verified
+P006,vonisBulan,66,putusan_006.pdf,23,Shabil,Fathul,verified
+P006,dendaRupiah,1000000000,putusan_006.pdf,23,Shabil,Fathul,verified
+P007,nomorPerkara,1003/Pid.Sus/2023/PN Pbr,putusan_007.pdf,1,Shabil,Fathul,verified
+P007,tanggalPutusan,2023-10-31,putusan_007.pdf,34,Shabil,Fathul,verified
+P007,jenisNarkotika,sabu,putusan_007.pdf,5,Shabil,Fathul,verified
+P007,beratBarangBuktiGram,49.29,putusan_007.pdf,5,Shabil,Fathul,verified
+P007,pasalDakwaan,114(2)|112(2),putusan_007.pdf,6,Shabil,Fathul,verified
+P007,pasalTerbukti,112(2),putusan_007.pdf,33,Shabil,Fathul,verified
+P007,tuntutanBulan,96,putusan_007.pdf,2,Shabil,Fathul,verified
+P007,vonisBulan,96,putusan_007.pdf,33,Shabil,Fathul,verified
+P007,dendaRupiah,1000000000,putusan_007.pdf,33,Shabil,Fathul,verified
+P008,nomorPerkara,1018/Pid.Sus/2023/PN Pbr,putusan_008.pdf,1,Shabil,Fathul,verified
+P008,tanggalPutusan,2023-11-09,putusan_008.pdf,23,Shabil,Fathul,verified
+P008,jenisNarkotika,sabu,putusan_008.pdf,5,Shabil,Fathul,verified
+P008,beratBarangBuktiGram,2745.81,putusan_008.pdf,5,Shabil,Fathul,verified
+P008,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_008.pdf,5,Shabil,Fathul,verified
+P008,pasalTerbukti,112(2) jo 132(1),putusan_008.pdf,22,Shabil,Fathul,verified
+P008,tuntutanBulan,132,putusan_008.pdf,3,Shabil,Fathul,verified
+P008,vonisBulan,108,putusan_008.pdf,22,Shabil,Fathul,verified
+P008,dendaRupiah,1000000000,putusan_008.pdf,22,Shabil,Fathul,verified
+P009,nomorPerkara,1029/Pid.Sus/2023/PN Pbr,putusan_009.pdf,1,Shabil,Fathul,verified
+P009,tanggalPutusan,2023-12-19,putusan_009.pdf,35,Shabil,Fathul,verified
+P009,jenisNarkotika,sabu|ekstasi,putusan_009.pdf,3,Shabil,Fathul,verified
+P009,beratBarangBuktiGram,0,putusan_009.pdf,3,Shabil,Fathul,missing
+P009,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_009.pdf,5,Shabil,Fathul,verified
+P009,pasalTerbukti,114(2) jo 132(1),putusan_009.pdf,34,Shabil,Fathul,verified
+P009,tuntutanBulan,9999,putusan_009.pdf,2,Shabil,Fathul,verified
+P009,vonisBulan,999,putusan_009.pdf,34,Shabil,Fathul,verified
+P009,dendaRupiah,0,putusan_009.pdf,34,Shabil,Fathul,verified
+P010,nomorPerkara,1030/Pid.Sus/2023/PN Pbr,putusan_010.pdf,1,Shabil,Fathul,verified
+P010,tanggalPutusan,2023-12-19,putusan_010.pdf,54,Shabil,Fathul,verified
+P010,jenisNarkotika,sabu|ekstasi,putusan_010.pdf,4,Shabil,Fathul,verified
+P010,beratBarangBuktiGram,0,putusan_010.pdf,4,Shabil,Fathul,missing
+P010,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_010.pdf,8,Shabil,Fathul,verified
+P010,pasalTerbukti,114(2) jo 132(1),putusan_010.pdf,54,Shabil,Fathul,verified
+P010,tuntutanBulan,9999,putusan_010.pdf,2,Shabil,Fathul,verified
+P010,vonisBulan,999,putusan_010.pdf,54,Shabil,Fathul,verified
+P010,dendaRupiah,0,putusan_010.pdf,54,Shabil,Fathul,verified
+P011,nomorPerkara,1031/Pid.Sus/2023/PN Pbr,putusan_011.pdf,1,Shabil,Fathul,verified
+P011,tanggalPutusan,2023-12-19,putusan_011.pdf,36,Shabil,Fathul,verified
+P011,jenisNarkotika,sabu|ekstasi,putusan_011.pdf,4,Shabil,Fathul,verified
+P011,beratBarangBuktiGram,0,putusan_011.pdf,4,Shabil,Fathul,missing
+P011,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_011.pdf,4,Shabil,Fathul,verified
+P011,pasalTerbukti,114(2) jo 132(1),putusan_011.pdf,35,Shabil,Fathul,verified
+P011,tuntutanBulan,9999,putusan_011.pdf,2,Shabil,Fathul,verified
+P011,vonisBulan,999,putusan_011.pdf,35,Shabil,Fathul,verified
+P011,dendaRupiah,0,putusan_011.pdf,35,Shabil,Fathul,verified
+P012,nomorPerkara,1036/Pid.Sus/2022/PN Pbr,putusan_012.pdf,1,Shabil,Fathul,verified
+P012,tanggalPutusan,2023-01-05,putusan_012.pdf,31,Shabil,Fathul,verified
+P012,jenisNarkotika,sabu,putusan_012.pdf,6,Shabil,Fathul,verified
+P012,beratBarangBuktiGram,8.39,putusan_012.pdf,6,Shabil,Fathul,verified
+P012,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_012.pdf,6,Shabil,Fathul,verified
+P012,pasalTerbukti,114(2) jo 132(1),putusan_012.pdf,29,Shabil,Fathul,verified
+P012,tuntutanBulan,96,putusan_012.pdf,2,Shabil,Fathul,verified
+P012,vonisBulan,90,putusan_012.pdf,29,Shabil,Fathul,verified
+P012,dendaRupiah,2000000000,putusan_012.pdf,29,Shabil,Fathul,verified
+P013,nomorPerkara,1038/Pid.Sus/2023/PN Pbr,putusan_013.pdf,1,Shabil,Fathul,verified
+P013,tanggalPutusan,2023-12-19,putusan_013.pdf,51,Shabil,Fathul,verified
+P013,jenisNarkotika,sabu|ekstasi,putusan_013.pdf,2,Shabil,Fathul,verified
+P013,beratBarangBuktiGram,0,putusan_013.pdf,2,Shabil,Fathul,missing
+P013,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_013.pdf,6,Shabil,Fathul,verified
+P013,pasalTerbukti,114(2) jo 132(1),putusan_013.pdf,50,Shabil,Fathul,verified
+P013,tuntutanBulan,999,putusan_013.pdf,2,Shabil,Fathul,verified
+P013,vonisBulan,240,putusan_013.pdf,50,Shabil,Fathul,verified
+P013,dendaRupiah,1000000000,putusan_013.pdf,50,Shabil,Fathul,verified
+P014,nomorPerkara,1039/Pid.Sus/2023/PN Pbr,putusan_014.pdf,1,Shabil,Fathul,verified
+P014,tanggalPutusan,2023-12-19,putusan_014.pdf,47,Shabil,Fathul,verified
+P014,jenisNarkotika,sabu|ekstasi,putusan_014.pdf,4,Shabil,Fathul,verified
+P014,beratBarangBuktiGram,0,putusan_014.pdf,4,Shabil,Fathul,missing
+P014,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_014.pdf,6,Shabil,Fathul,verified
+P014,pasalTerbukti,114(2) jo 132(1),putusan_014.pdf,46,Shabil,Fathul,verified
+P014,tuntutanBulan,999,putusan_014.pdf,2,Shabil,Fathul,verified
+P014,vonisBulan,240,putusan_014.pdf,46,Shabil,Fathul,verified
+P014,dendaRupiah,1000000000,putusan_014.pdf,46,Shabil,Fathul,verified
+P015,nomorPerkara,1041/Pid.Sus/2023/PN Pbr,putusan_015.pdf,1,Shabil,Fathul,verified
+P015,tanggalPutusan,2023-11-14,putusan_015.pdf,43,Shabil,Fathul,verified
+P015,jenisNarkotika,sabu,putusan_015.pdf,3,Shabil,Fathul,verified
+P015,beratBarangBuktiGram,6995.69,putusan_015.pdf,3,Shabil,Fathul,verified
+P015,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_015.pdf,9,Shabil,Fathul,verified
+P015,pasalTerbukti,114(2) jo 132(1),putusan_015.pdf,41,Shabil,Fathul,verified
+P015,tuntutanBulan,216,putusan_015.pdf,2,Shabil,Fathul,verified
+P015,vonisBulan,192,putusan_015.pdf,41,Shabil,Fathul,verified
+P015,dendaRupiah,2000000000,putusan_015.pdf,41,Shabil,Fathul,verified
+P016,nomorPerkara,1042/Pid.Sus/2023/PN Pbr,putusan_016.pdf,1,Shabil,Fathul,verified
+P016,tanggalPutusan,2023-11-14,putusan_016.pdf,35,Shabil,Fathul,verified
+P016,jenisNarkotika,sabu,putusan_016.pdf,3,Shabil,Fathul,verified
+P016,beratBarangBuktiGram,6995.69,putusan_016.pdf,3,Shabil,Fathul,verified
+P016,pasalDakwaan,114(2) jo 132(1)|112(2) jo 132(1),putusan_016.pdf,7,Shabil,Fathul,verified
+P016,pasalTerbukti,114(2) jo 132(1),putusan_016.pdf,33,Shabil,Fathul,verified
+P016,tuntutanBulan,216,putusan_016.pdf,2,Shabil,Fathul,verified
+P016,vonisBulan,192,putusan_016.pdf,33,Shabil,Fathul,verified
+P016,dendaRupiah,2000000000,putusan_016.pdf,33,Shabil,Fathul,verified
+P017,nomorPerkara,1103/Pid.Sus/2023/PN Pbr,putusan_017.pdf,1,Shabil,Fathul,verified
+P017,tanggalPutusan,2023-11-14,putusan_017.pdf,29,Shabil,Fathul,verified
+P017,jenisNarkotika,sabu,putusan_017.pdf,5,Shabil,Fathul,verified
+P017,beratBarangBuktiGram,0.52,putusan_017.pdf,5,Shabil,Fathul,verified
+P017,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_017.pdf,8,Shabil,Fathul,verified
+P017,pasalTerbukti,114(1) jo 132(1),putusan_017.pdf,28,Shabil,Fathul,verified
+P017,tuntutanBulan,72,putusan_017.pdf,2,Shabil,Fathul,verified
+P017,vonisBulan,68,putusan_017.pdf,28,Shabil,Fathul,verified
+P017,dendaRupiah,1000000000,putusan_017.pdf,28,Shabil,Fathul,verified
+P018,nomorPerkara,1109/Pid.Sus/2023/PN Pbr,putusan_018.pdf,1,Shabil,Fathul,verified
+P018,tanggalPutusan,2023-11-09,putusan_018.pdf,30,Shabil,Fathul,verified
+P018,jenisNarkotika,ekstasi,putusan_018.pdf,5,Shabil,Fathul,verified
+P018,beratBarangBuktiGram,1.05,putusan_018.pdf,5,Shabil,Fathul,verified
+P018,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_018.pdf,5,Shabil,Fathul,verified
+P018,pasalTerbukti,114(1) jo 132(1),putusan_018.pdf,29,Shabil,Fathul,verified
+P018,tuntutanBulan,66,putusan_018.pdf,2,Shabil,Fathul,verified
+P018,vonisBulan,63,putusan_018.pdf,29,Shabil,Fathul,verified
+P018,dendaRupiah,1000000000,putusan_018.pdf,29,Shabil,Fathul,verified
+P019,nomorPerkara,1155/Pid.Sus/2023/PN Pbr,putusan_019.pdf,1,Shabil,Fathul,verified
+P019,tanggalPutusan,2023-12-21,putusan_019.pdf,24,Shabil,Fathul,verified
+P019,jenisNarkotika,sabu,putusan_019.pdf,2,Shabil,Fathul,verified
+P019,beratBarangBuktiGram,3103.5,putusan_019.pdf,2,Shabil,Fathul,verified
+P019,pasalDakwaan,114(2)|112(2),putusan_019.pdf,6,Shabil,Fathul,verified
+P019,pasalTerbukti,114(2),putusan_019.pdf,23,Shabil,Fathul,verified
+P019,tuntutanBulan,156,putusan_019.pdf,2,Shabil,Fathul,verified
+P019,vonisBulan,150,putusan_019.pdf,23,Shabil,Fathul,verified
+P019,dendaRupiah,3000000000,putusan_019.pdf,23,Shabil,Fathul,verified
+P020,nomorPerkara,1175/Pid.Sus/2023/PN Pbr,putusan_020.pdf,1,Shabil,Fathul,verified
+P020,tanggalPutusan,2023-12-13,putusan_020.pdf,46,Shabil,Fathul,verified
+P020,jenisNarkotika,ekstasi,putusan_020.pdf,5,Shabil,Fathul,verified
+P020,beratBarangBuktiGram,25.96,putusan_020.pdf,5,Shabil,Fathul,verified
+P020,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1)|127(1) huruf a,putusan_020.pdf,5,Shabil,Fathul,verified
+P020,pasalTerbukti,114(1) jo 132(1),putusan_020.pdf,45,Shabil,Fathul,verified
+P020,tuntutanBulan,78,putusan_020.pdf,2,Shabil,Fathul,verified
+P020,vonisBulan,78,putusan_020.pdf,45,Shabil,Fathul,verified
+P020,dendaRupiah,1500000000,putusan_020.pdf,45,Shabil,Fathul,verified
+P021,nomorPerkara,1232/Pid.Sus/2023/PN Pbr,putusan_021.pdf,1,Shabil,Fathul,verified
+P021,tanggalPutusan,2023-12-21,putusan_021.pdf,31,Shabil,Fathul,verified
+P021,jenisNarkotika,sabu,putusan_021.pdf,2,Shabil,Fathul,verified
+P021,beratBarangBuktiGram,0.12,putusan_021.pdf,2,Shabil,Fathul,verified
+P021,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_021.pdf,6,Shabil,Fathul,verified
+P021,pasalTerbukti,112(1) jo 132(1),putusan_021.pdf,30,Shabil,Fathul,verified
+P021,tuntutanBulan,72,putusan_021.pdf,2,Shabil,Fathul,verified
+P021,vonisBulan,66,putusan_021.pdf,30,Shabil,Fathul,verified
+P021,dendaRupiah,1000000000,putusan_021.pdf,30,Shabil,Fathul,verified
+P022,nomorPerkara,1233/Pid.Sus/2023/PN Pbr,putusan_022.pdf,1,Shabil,Fathul,verified
+P022,tanggalPutusan,2023-12-21,putusan_022.pdf,31,Shabil,Fathul,verified
+P022,jenisNarkotika,sabu,putusan_022.pdf,2,Shabil,Fathul,verified
+P022,beratBarangBuktiGram,0.12,putusan_022.pdf,2,Shabil,Fathul,verified
+P022,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_022.pdf,6,Shabil,Fathul,verified
+P022,pasalTerbukti,112(1) jo 132(1),putusan_022.pdf,30,Shabil,Fathul,verified
+P022,tuntutanBulan,72,putusan_022.pdf,2,Shabil,Fathul,verified
+P022,vonisBulan,66,putusan_022.pdf,30,Shabil,Fathul,verified
+P022,dendaRupiah,1000000000,putusan_022.pdf,30,Shabil,Fathul,verified
+P023,nomorPerkara,1241/Pid.Sus/2023/PN Pbr,putusan_023.pdf,1,Shabil,Fathul,verified
+P023,tanggalPutusan,2023-12-19,putusan_023.pdf,27,Shabil,Fathul,verified
+P023,jenisNarkotika,sabu,putusan_023.pdf,3,Shabil,Fathul,verified
+P023,beratBarangBuktiGram,0.62,putusan_023.pdf,3,Shabil,Fathul,verified
+P023,pasalDakwaan,114(1)|112(1),putusan_023.pdf,5,Shabil,Fathul,verified
+P023,pasalTerbukti,112(1),putusan_023.pdf,25,Shabil,Fathul,verified
+P023,tuntutanBulan,66,putusan_023.pdf,2,Shabil,Fathul,verified
+P023,vonisBulan,66,putusan_023.pdf,25,Shabil,Fathul,verified
+P023,dendaRupiah,1000000000,putusan_023.pdf,25,Shabil,Fathul,verified
+P024,nomorPerkara,1255/Pid.Sus/2023/PN Pbr,putusan_024.pdf,1,Shabil,Fathul,verified
+P024,tanggalPutusan,2023-12-19,putusan_024.pdf,25,Shabil,Fathul,verified
+P024,jenisNarkotika,sabu,putusan_024.pdf,5,Shabil,Fathul,verified
+P024,beratBarangBuktiGram,0.26,putusan_024.pdf,5,Shabil,Fathul,verified
+P024,pasalDakwaan,114(1)|112(1),putusan_024.pdf,5,Shabil,Fathul,verified
+P024,pasalTerbukti,112(1),putusan_024.pdf,24,Shabil,Fathul,verified
+P024,tuntutanBulan,66,putusan_024.pdf,2,Shabil,Fathul,verified
+P024,vonisBulan,66,putusan_024.pdf,24,Shabil,Fathul,verified
+P024,dendaRupiah,1000000000,putusan_024.pdf,24,Shabil,Fathul,verified
+P025,nomorPerkara,1269/Pid.Sus/2023/PN Pbr,putusan_025.pdf,1,Shabil,Fathul,verified
+P025,tanggalPutusan,2023-12-14,putusan_025.pdf,21,Shabil,Fathul,verified
+P025,jenisNarkotika,sabu,putusan_025.pdf,5,Shabil,Fathul,verified
+P025,beratBarangBuktiGram,0.16,putusan_025.pdf,5,Shabil,Fathul,verified
+P025,pasalDakwaan,114(1)|112(1),putusan_025.pdf,5,Shabil,Fathul,verified
+P025,pasalTerbukti,114(1),putusan_025.pdf,20,Shabil,Fathul,verified
+P025,tuntutanBulan,66,putusan_025.pdf,2,Shabil,Fathul,verified
+P025,vonisBulan,66,putusan_025.pdf,20,Shabil,Fathul,verified
+P025,dendaRupiah,1000000000,putusan_025.pdf,20,Shabil,Fathul,verified
