@@ -1,5 +1,6 @@
 package id.ac.umm.kelompok06.aplikasi;
 
+import id.ac.umm.kelompok06.io.DataTidakValidException;
 import id.ac.umm.kelompok06.io.HasilImpor;
 import id.ac.umm.kelompok06.io.PutusanCsvParser;
 import id.ac.umm.kelompok06.model.Putusan;
@@ -49,6 +50,68 @@ public class ArsipPutusan {
         }
         catat("TAMPIL", arsip.size() + " putusan");
         return sb.toString();
+    }
+
+    // ================= Fitur Tambah dan Hapus =================
+
+    /**
+     * Menambah putusan di akhir arsip memakai add() milik ArrayDinamis.
+     * Ditolak jika caseId sudah ada (contains memakai equals berdasarkan caseId).
+     */
+    public void tambah(Putusan putusan) {
+        if (arsip.contains(putusan)) {
+            throw new IllegalArgumentException("caseId " + putusan.getCaseId() + " sudah ada di arsip");
+        }
+        arsip.add(putusan);
+        catat("TAMBAH", putusan.getCaseId() + " di indeks " + (arsip.size() - 1));
+    }
+
+    /**
+     * Menyisipkan putusan pada posisi tertentu memakai insert() milik ArrayDinamis.
+     * Elemen dari posisi itu bergeser ke kanan.
+     */
+    public void tambahDi(int posisi, Putusan putusan) {
+        if (arsip.contains(putusan)) {
+            throw new IllegalArgumentException("caseId " + putusan.getCaseId() + " sudah ada di arsip");
+        }
+        arsip.insert(posisi, putusan);
+        catat("TAMBAH", putusan.getCaseId() + " di indeks " + posisi);
+    }
+
+    /**
+     * Menambah dari satu baris CSV yang diketik pengguna.
+     * Baris divalidasi oleh parser yang sama dengan impor (skenario 7):
+     * jika tidak valid, exception dilempar dan arsip tidak berubah.
+     */
+    public Putusan tambahDariBarisCsv(String baris) throws DataTidakValidException {
+        Putusan putusan = parser.parseBaris(baris, arsip.size() + 2);
+        tambah(putusan);
+        return putusan;
+    }
+
+    /**
+     * Menghapus putusan berdasarkan caseId memakai cari() lalu remove() milik ArrayDinamis.
+     * Elemen di kanannya bergeser ke kiri.
+     *
+     * @return putusan yang dihapus, atau null jika caseId tidak ada
+     */
+    public Putusan hapus(String caseId) {
+        String kunci = caseId == null ? "" : caseId.trim();
+        int indeks = arsip.cari(p -> p.getCaseId().equalsIgnoreCase(kunci));
+        if (indeks < 0) {
+            catat("HAPUS", kunci + " -> tidak ditemukan");
+            return null;
+        }
+        Putusan dihapus = arsip.remove(indeks);
+        catat("HAPUS", kunci + " dari indeks " + indeks);
+        return dihapus;
+    }
+
+    /** Menghapus putusan pada posisi tertentu memakai remove() milik ArrayDinamis. */
+    public Putusan hapusDi(int posisi) {
+        Putusan dihapus = arsip.remove(posisi);
+        catat("HAPUS", dihapus.getCaseId() + " dari indeks " + posisi);
+        return dihapus;
     }
 
     /** Struktur utama, dipakai oleh fitur-fitur lain. */
